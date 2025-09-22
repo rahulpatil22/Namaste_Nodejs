@@ -15,3 +15,13 @@ process.nextTick(() => {
 });
 
 console.log("last line of the file");
+
+
+// o/p
+// last line of the file
+// nextTick
+// inner nextTick
+// Promise
+// Timer expired
+// setImmediate
+// File Reading CB
